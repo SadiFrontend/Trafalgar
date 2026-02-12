@@ -1,0 +1,137 @@
+@media (max-width: 1024px) {
+  $text-5xl: 2.5rem;
+  $text-4xl: 2rem;
+  $text-3xl: 1.75rem;
+
+  .hero-text h1 {
+    font-size: $text-5xl;
+  }
+
+  h1 {
+    font-size: $text-4xl;
+  }
+
+  h2 {
+    font-size: $text-3xl;
+  }
+
+  .hero-content,
+  .provider-content,
+  .download-content {
+    grid-template-columns: 1fr;
+    gap: $spacing-2xl;
+  }
+
+  .provider-content .provider-image {
+    order: -1;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    gap: $spacing-2xl;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  $text-5xl: 2rem;
+  $text-4xl: 1.75rem;
+  $text-3xl: 1.5rem;
+  $spacing-4xl: 3rem;
+
+  .hero-text h1 {
+    font-size: $text-4xl;
+  }
+
+  h1 {
+    font-size: $text-4xl;
+  }
+
+  h2 {
+    font-size: $text-3xl;
+  }
+
+  .hero {
+    padding: $spacing-2xl 0;
+  }
+
+  .nav-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: $bg-white;
+    flex-direction: column;
+    gap: 0;
+    padding: $spacing-lg;
+    box-shadow: $shadow-lg;
+
+    &.active {
+      display: flex;
+    }
+  }
+
+  .nav-link {
+    padding: $spacing-md 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+  .mobile-menu-toggle {
+    display: flex;
+  }
+
+  .services-grid,
+  .articles-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    padding: 0.75rem 2rem;
+    font-size: $text-sm;
+  }
+
+  .testimonial-card {
+    padding: $spacing-xl;
+  }
+
+  .testimonial-header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  $container-padding: 1rem;
+  $text-5xl: 1.75rem;
+  $text-4xl: 1.5rem;
+
+  .container {
+    padding: 0 $container-padding;
+  }
+
+  .hero-text h1 {
+    font-size: $text-5xl;
+  }
+
+  h1 {
+    font-size: $text-4xl;
+  }
+
+  .service-card,
+  .article-card {
+    margin: 0 $spacing-sm;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}

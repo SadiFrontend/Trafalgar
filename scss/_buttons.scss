@@ -1,0 +1,47 @@
+.btn {
+  display: inline-block;
+  padding: 0.875rem 2.5rem;
+  font-family: $font-heading;
+  font-size: $text-base;
+  font-weight: 600;
+  text-align: center;
+  border-radius: $radius-full;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background-color: $primary-blue;
+  color: $text-white;
+  border-color: $primary-blue;
+
+  &:hover {
+    background-color: $primary-blue-dark;
+    border-color: $primary-blue-dark;
+  }
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: $primary-blue;
+  border-color: $primary-blue;
+
+  &:hover {
+    background-color: $primary-blue;
+    color: $text-white;
+  }
+}
+
+.btn-download {
+  background-color: $text-white;
+  color: $primary-blue;
+  border-color: $text-white;
+
+  &:hover {
+    background-color: transparent;
+    color: $text-white;
+    border-color: $text-white;
+  }
+}

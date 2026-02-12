@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Lora:wght@400;500;600&display=swap');
+
+$primary-blue: #458FF6;
+$primary-blue-dark: #2D68C4;
+$secondary-blue: #6082B6;
+$light-blue: #AFDBF5;
+$accent-pink: #ED64A6;
+$accent-green: #90EE90;
+
+$text-primary: #1F2937;
+$text-secondary: #6B7280;
+$text-light: #9CA3AF;
+$text-white: #FFFFFF;
+
+$bg-white: #FFFFFF;
+$bg-light: #F9FAFB;
+$bg-blue-light: #F0F7FF;
+$bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+$font-heading: 'Nunito', sans-serif;
+$font-body: 'Lora', serif;
+
+$text-xs: 0.75rem;
+$text-sm: 0.875rem;
+$text-base: 1rem;
+$text-lg: 1.125rem;
+$text-xl: 1.25rem;
+$text-2xl: 1.5rem;
+$text-3xl: 1.875rem;
+$text-4xl: 2.25rem;
+$text-5xl: 3rem;
+
+$spacing-xs: 0.5rem;
+$spacing-sm: 0.75rem;
+$spacing-md: 1rem;
+$spacing-lg: 1.5rem;
+$spacing-xl: 2rem;
+$spacing-2xl: 3rem;
+$spacing-3xl: 4rem;
+$spacing-4xl: 6rem;
+
+$radius-sm: 0.375rem;
+$radius-md: 0.5rem;
+$radius-lg: 0.75rem;
+$radius-xl: 1rem;
+$radius-2xl: 1.5rem;
+$radius-full: 9999px;
+
+$shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+$shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+
+$container-max: 1200px;
+$container-padding: 1.5rem;
